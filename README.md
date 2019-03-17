@@ -1,10 +1,6 @@
 # Wisper::Mongoid
 
-[![Gem Version](https://badge.fury.io/rb/wisper-mongoid.png)](http://badge.fury.io/rb/wisper-mongoid)
-[![Build Status](https://travis-ci.org/blackxored/wisper-mongoid.png?branch=master)](https://travis-ci.org/blackxored/wisper-mongoid)
-[![Coverage Status](https://coveralls.io/repos/blackxored/wisper-mongoid/badge.svg)](https://coveralls.io/r/blackxored/wisper-mongoid)
-[![Dependency Status](https://gemnasium.com/blackxored/wisper-mongoid.png)](https://gemnasium.com/blackxored/wisper-mongoid)
-[![Code Climate](https://codeclimate.com/github/blackxored/wisper-mongoid.png)](https://codeclimate.com/github/blackxored/wisper-mongoid)
+[![Gem Version](https://badge.fury.io/rb/fhwang-wisper-mongoid.png)](http://badge.fury.io/rb/fhwang-wisper-mongoid)
 
 Transparently publish model lifecycle events to subscribers.
 
@@ -15,7 +11,7 @@ Listeners are subscribed to models at runtime.
 ## Installation
 
 ```ruby
-gem 'wisper-mongoid'
+gem 'fhwang-wisper-mongoid'
 ```
 
 ## Usage
@@ -179,16 +175,13 @@ meeting.save
 Auditor.audit # => [...]
 ```
 
-## Compatibility
-
-Tested on 1.9.3, 2.x, Rubinius and JRuby for Mongoid ~> 3.1, ~> 4.0
-
-See the CI [build status](https://travis-ci.org/blackxored/wisper-mongoid) for more information.
-
 ## Special Thanks
 
-Special thanks to krisleech for creating `wisper` and `wisper-activerecord`,
-this implementation is heavily based on the later.
+This gem is a fork of the original wisper-mongoid gem by Adrian Perez.
+
+The implementation and interface is heavily inspired by krisleech's
+`wisper-activerecord`.
+
 
 ## Contributing
 
@@ -197,5 +190,5 @@ Please submit a Pull Request with specs.
 ### Running the specs
 
 ```
-bundle exec rspec
+bundle exec rake
 ```

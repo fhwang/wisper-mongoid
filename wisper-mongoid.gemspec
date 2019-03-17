@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'wisper/mongoid/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'wisper-mongoid'
+  spec.name          = 'fhwang-wisper-mongoid'
   spec.version       = Wisper::Mongoid::VERSION
-  spec.authors       = ['Adrian Perez']
-  spec.email         = ['adrianperez.deb@gmail.com']
+  spec.authors       = ['Francis Hwang', 'Adrian Perez']
+  spec.email         = ['sera@fhwang.net']
   spec.summary       = 'Subscribe to changes on Mongoid models'
   spec.description   = 'Subscribe to changes on Mongoid models'
-  spec.homepage      = 'https://github.com/blackxored/wisper-mongoid'
+  spec.homepage      = 'https://github.com/fhwang/wisper-mongoid'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
