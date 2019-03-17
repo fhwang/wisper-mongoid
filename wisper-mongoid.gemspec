@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
   spec.required_ruby_version = '>= 1.9.3'
 
-  spec.add_dependency 'wisper', '~> 1.3'
+  spec.add_dependency 'wisper'
   spec.add_dependency 'mongoid', '>= 6'
   spec.add_development_dependency "rspec"
 end
