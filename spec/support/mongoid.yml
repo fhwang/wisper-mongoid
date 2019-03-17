@@ -1,6 +1,6 @@
 test:
-  sessions:
+  clients:
     default:
-      database: wisper_test
+      database: wisper_mongoid_test
       hosts:
         - localhost:27017
