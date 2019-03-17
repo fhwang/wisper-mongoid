@@ -8,8 +8,7 @@ module Wisper
 
   module Mongoid
     def self.extend_all
-      # TODO: Include model on all mongoid documents
-      fail NotImplementedError
+      ::Mongoid::Document.class_eval { include Wisper.model }
     end
   end
 end
