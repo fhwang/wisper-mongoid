@@ -53,3 +53,8 @@ Style/SymbolProc:
 
 Style/UnneededPercentQ:
   Enabled: false
+
+Lint/HandleExceptions:
+  Exclude:
+    - Rakefile
+    - spec/spec_helper.rb
