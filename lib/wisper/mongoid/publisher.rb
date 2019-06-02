@@ -1,5 +1,6 @@
 module Wisper
   module Mongoid
+    # Broadcasts Wisper events when Mongoid records are saved.
     module Publisher
       extend ActiveSupport::Concern
       included do
