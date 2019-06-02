@@ -1,3 +1,4 @@
+require 'mongoid/document'
 require 'wisper/mongoid/version'
 require 'wisper/mongoid/publisher'
 

@@ -1,3 +1,5 @@
+require 'active_support/concern'
+
 module Wisper
   module Mongoid
     # Broadcasts Wisper events when Mongoid records are saved.
