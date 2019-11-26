@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+# Runtime dependencies
+gem 'mongoid', '>= 6', '< 7'
+
+# Development dependencies
+gem 'gemika'
+gem 'rspec'
+
+# Gem under test
+gem 'fhwang-wisper-mongoid', path: '.'
