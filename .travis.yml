@@ -3,6 +3,7 @@ bundler_args: --without=metrics
 script: bundle exec rspec spec
 gemfile:
   - Gemfile.mongoid6
+  - Gemfile.mongoid7
 rvm:
   - 2.6.3
 services:
