@@ -2,12 +2,9 @@ language: ruby
 bundler_args: --without=metrics
 script: bundle exec rspec spec
 gemfile:
-  - gemfiles/mongoid-3.1
-  - gemfiles/mongoid-4.0
+  - Gemfile.mongoid6
+  - Gemfile.mongoid7
 rvm:
-  - '1.9.3'
-  - '2.2.0'
-  - jruby
-  - rbx-2
+  - 2.6.3
 services:
   - mongodb

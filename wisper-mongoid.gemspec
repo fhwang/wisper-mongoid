@@ -18,9 +18,10 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'activesupport'
-  spec.add_dependency 'mongoid', '>= 6', '< 7'
+  spec.add_dependency 'mongoid', '>= 6'
   spec.add_dependency 'wisper'
 
+  spec.add_development_dependency "gemika"
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "rspec_junit_formatter"
 end
